@@ -1,5 +1,3 @@
-FROM registry.access.redhat.com/openshift3/jenkins-slave-nodejs-rhel7:latest
+FROM registry.access.redhat.com/openshift3/jenkins-slave-maven-rhel7
 
 USER root
-RUN npm install angular
-USER 1001
